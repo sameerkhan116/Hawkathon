@@ -72,7 +72,7 @@
       <div class="form-group">
         <label for="inputName" class="col-lg-2 control-label">Name: </label>
         <div class="col-lg-10">
-          <input type="text" class="form-control" id="inputEmail" placeholder="Your name">
+          <input type="text" class="form-control" id="inputName" placeholder="Your name">
         </div>
       </div>
       <div class="form-group">
@@ -84,7 +84,7 @@
       <div class="form-group">
         <label for="inputAge" class="col-lg-2 control-label">Age: </label>
         <div class="col-lg-10">
-          <input type="text" class="form-control" id="inputPassword" placeholder="Your age">
+          <input type="text" class="form-control" id="age" placeholder="Your age">
         </div>
       </div>
       <div class="form-group">
@@ -92,13 +92,13 @@
         <div class="col-lg-10">
           <div class="radio">
             <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              <input type="radio" id="optionsRadios1" value="option1" checked="">
               Male
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              <input type="radio" id="optionsRadios2" value="option2">
               Female
             </label>
           </div>
@@ -108,7 +108,7 @@
         <label for="select" class="col-lg-2 control-label">Blood Group</label>
         <div class="col-lg-10">
           <select class="form-control" id="select">
-            <option><option>
+            <option></option>
             <option>A-</option>
             <option>A+</option>
             <option>B-</option>
@@ -123,8 +123,8 @@
       </div>
       <div class="form-group">
         <div class="col-lg-10 col-lg-offset-2">
-          <button type="reset" class="btn btn-default">Cancel</button>
-          <button type="submit" class="btn btn-primary">Request</button>
+          <button type="reset" class="btn btn-default" id="cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="myBtn">Request</button>
         </div>
       </div>
     </fieldset>
